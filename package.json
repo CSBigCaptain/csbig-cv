@@ -1,11 +1,14 @@
 {
   "name": "zhilu-cv",
   "type": "module",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "private": true,
+  "engines": {
+    "pnpm": ">=10"
+  },
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "dev": "nuxt dev --open",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
