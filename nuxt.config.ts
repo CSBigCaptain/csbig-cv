@@ -10,6 +10,13 @@ export default defineNuxtConfig({
 				// "InterVariable", "Inter", "InterDisplay"
 				{ rel: 'stylesheet', href: 'https://rsms.me/inter/inter.css', media: 'print', onload: 'this.media="all"' },
 			],
+			script: [
+				{
+					'src': 'https://stats.kungal.org/script.js',
+					'defer': true,
+					'data-website-id': '0a850e5a-77c0-440b-aaf5-c0865cb7070f',
+				},
+			],
 		},
 		rootAttrs: {
 			id: 'zhilu-cv',
@@ -32,7 +39,7 @@ export default defineNuxtConfig({
 
 	routeRules: {
 		// 网站图标
-		'/favicon.ico': { redirect: 'https://wsrv.nl/?url=github.com/L33Z22L11.png%3fsize=96&mask=circle' },
+		'/favicon.ico': { redirect: 'https://csbig.top/favicon.ico' },
 	},
 
 	runtimeConfig: {
